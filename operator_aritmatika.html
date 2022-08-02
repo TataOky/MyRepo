@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Aritmatika</title>
+</head>
+<body>
+    <script>
+        let j = prompt("Masukkan jari jari lingkaran")
+        let luasLingkaran = 3.14*j*j;
+        let kelLingakaran = 2*3.14*j;
+
+        console.log(`Luas lingkarannya adalah ${luasLingkaran} cm`)
+        console.log(`Keliling lingkarannya adalah ${kelLingakaran} cm`)
+        document.writenln(`Luas lingkarannya adalah ${luasLingkaran} cm`)
+        document.writenln(`Keliling lingkarannya adalah ${kelLingakaran} cm`)
+
+        let sisi = prompt("Masukkan sisi segitiga")
+        let alas = prompt("Masukkan Alas segitiga")
+        let tinggi = prompt("Masukkan tinggi segitiga")
+        let luasSegitiga = sisi*sisi*sisi;
+        let kelSegitiga = 1/2*alas*tinggi;
+
+        console.log(`Luas segitiga adalah ${luasSegitiga} cm`)
+        console.log(`Keliling segitiga adalah ${kelSegitiga} cm`)
+        document.writenln(`Luas segitiga adalah ${luasSegitiga} cm`)
+        document.writenln(`Keliling segitiga adalah ${kelSegitiga} cm`)
+
+        let panjang = prompt("Masukkan sisi balok")
+        let lebar = prompt("Masukkan Alas balok")
+        let tinggi1 = prompt("Masukkan tinggi balok")
+        let volBalok = panjang*lebar*tinggi1;
+        let luasBalok = (2 * panjang * lebar) + (2 * lebar * tinggi1) + (2 * panjang * tinggi1);
+
+        console.log(`volume balok adalah ${volBalok} cm`)
+        console.log(`Luas permukaan balok adalah ${luasBalok} cm`)
+        document.writenln(`Luas segitiga adalah ${volBalok} cm`)
+        document.writenln(`Keliling segitiga adalah ${luasBalok} cm`)
+    </script>
+</body>
+</html>
